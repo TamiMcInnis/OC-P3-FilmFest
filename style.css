@@ -41,7 +41,7 @@ a:hover {
 .bar {
 	width: 240px;
 	height: 26px;
-	background-color: #3f67c4;
+	background-color: #446fd4;
 	margin: auto;
 	margin-top: -47px;
 	border-radius: 2px;
@@ -267,13 +267,28 @@ iframe {
 /* Day Header Style */
 .day {
 	color: #343434;
-	padding-bottom: 10px;
-	padding-top: 40px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-flex;
+	border-radius: 8px;
 }
 
 .day:hover {
-	color: #3f67c4;
-	font-weight: 500;
+	color: #446fd4;
+	font-weight: 600;
+	border-bottom: solid 4px #446fd4;	
+	background-color: #f9f0cf;
+	margin-bottom: 6px;
+}
+
+[aria-expanded=true] > h2 {
+	color: #446fd4;
+	font-weight: 600;
+	border-bottom: solid 4px #446fd4;	
+	background-color: #f9f0cf;
+	margin-bottom: 6px;
 }
 
 /* Row for each Day - FUll Width Grey*/
@@ -283,6 +298,7 @@ iframe {
 		padding-right: 75px;
 		margin-left: -50px;
 		margin-right: -50px;
+		margin-top: 10px;
 }
 
 /* Row for Each Day - Change to Slim Grey on Mobile */
@@ -424,8 +440,12 @@ iframe {
 }
 
 .btn:hover {
-	background-color: #fdffff !important;
-	color: #3f67c4;
+	color: #446fd4;
+	font-weight: 600;
+	border-bottom: solid 4px #446fd4;
+	background-color: #f9f0cf;
+	margin-bottom: -4px;
+	margin-top: 11px;
 }
 
 label {
