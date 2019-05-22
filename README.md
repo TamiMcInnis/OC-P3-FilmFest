@@ -15,4 +15,4 @@ The given tasks included:
 * Ensuring that the registration info is validated for submission
 * Writing a project brief to have clear communication with the client
 
-To view the project brief for the project please see the accompanying wiki [here](https://github.com/TamiMcInnis/OC-P3-FilmFest/wiki "Wiki link").
+To view the project brief for the project please see the accompanying PDF [here](https://github.com/TamiMcInnis/OC-P3-FilmFest/blob/master/Film_Fest_Brief.pdf "PDF link").
